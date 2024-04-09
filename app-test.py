@@ -1,6 +1,7 @@
 import requests
 import pandas as pd
 import time
+import json
 
 def lambda_handler(event, context):
     print('Begin!')
