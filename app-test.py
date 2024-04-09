@@ -10,6 +10,7 @@ url = f'https://api.nationalize.io/?name={myname}'
 
 r = requests.get(url).json()
 print(r)
+print('Keys are:')
 print(r.keys())
 
 df = pd.DataFrame(r['country'])
